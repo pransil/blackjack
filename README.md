@@ -1,4 +1,4 @@
-# Blackjack Game - built using my repo at claude-code-automation-framework
+# Blackjack Game - built using my claude-code-automation-framework
 
 The real point here is not the BlackJack game but that it was built in less than 1 hour by my claude-code-automation-framework without me typing a single line of code. It figured out where to find the rule, how to use React, etc. I just answered questions. Check out the repo if you are interested.
 
