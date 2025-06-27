@@ -1,0 +1,21 @@
+# React + Python Full Stack Dependencies
+
+# Backend Dependencies
+fastapi
+uvicorn[standard]
+pydantic
+redis
+python-jose[cryptography]
+
+# Frontend Dependencies (install with npm/yarn)
+# react
+# react-dom
+# react-router-dom
+# @reduxjs/toolkit
+# axios
+# @mui/material
+
+# Development Dependencies
+pytest
+pytest-asyncio
+httpx

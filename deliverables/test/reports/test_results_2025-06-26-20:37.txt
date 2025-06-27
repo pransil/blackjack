@@ -1,0 +1,47 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.7, pytest-7.4.4, pluggy-1.0.0 -- /Users/patransil/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/patransil/dev/agentic_programming/framework/blackjack_game/deliverables
+plugins: anyio-4.9.0
+collecting ... collected 38 items
+
+test/test_api.py::TestAPIEndpoints::test_root_endpoint PASSED            [  2%]
+test/test_api.py::TestAPIEndpoints::test_new_game_endpoint PASSED        [  5%]
+test/test_api.py::TestAPIEndpoints::test_get_game_state PASSED           [  7%]
+test/test_api.py::TestAPIEndpoints::test_get_nonexistent_game PASSED     [ 10%]
+test/test_api.py::TestAPIEndpoints::test_player_hit PASSED               [ 13%]
+test/test_api.py::TestAPIEndpoints::test_player_stand PASSED             [ 15%]
+test/test_api.py::TestAPIEndpoints::test_double_down PASSED              [ 18%]
+test/test_api.py::TestAPIEndpoints::test_invalid_actions_on_nonexistent_game PASSED [ 21%]
+test/test_api.py::TestAPIEndpoints::test_end_game PASSED                 [ 23%]
+test/test_api.py::TestAPIEndpoints::test_multiple_games PASSED           [ 26%]
+test/test_api.py::TestAPIEndpoints::test_game_flow_complete PASSED       [ 28%]
+test/test_api.py::TestAPIEndpoints::test_dealer_hidden_card PASSED       [ 31%]
+test/test_api.py::TestAPIEndpoints::test_available_actions PASSED        [ 34%]
+test/test_game_engine.py::TestCard::test_card_creation PASSED            [ 36%]
+test/test_game_engine.py::TestCard::test_face_card_values PASSED         [ 39%]
+test/test_game_engine.py::TestCard::test_number_card_values PASSED       [ 42%]
+test/test_game_engine.py::TestHand::test_empty_hand PASSED               [ 44%]
+test/test_game_engine.py::TestHand::test_simple_hand_value PASSED        [ 47%]
+test/test_game_engine.py::TestHand::test_ace_handling_soft_hand PASSED   [ 50%]
+test/test_game_engine.py::TestHand::test_ace_handling_hard_hand PASSED   [ 52%]
+test/test_game_engine.py::TestHand::test_multiple_aces PASSED            [ 55%]
+test/test_game_engine.py::TestHand::test_blackjack_detection PASSED      [ 57%]
+test/test_game_engine.py::TestHand::test_bust_detection PASSED           [ 60%]
+test/test_game_engine.py::TestHand::test_can_split PASSED                [ 63%]
+test/test_game_engine.py::TestDeck::test_deck_creation PASSED            [ 65%]
+test/test_game_engine.py::TestDeck::test_deck_contains_all_cards PASSED  [ 68%]
+test/test_game_engine.py::TestDeck::test_deck_deal_card PASSED           [ 71%]
+test/test_game_engine.py::TestDeck::test_deck_reset_when_empty PASSED    [ 73%]
+test/test_game_engine.py::TestBlackjackGame::test_game_initialization PASSED [ 76%]
+test/test_game_engine.py::TestBlackjackGame::test_start_new_game PASSED  [ 78%]
+test/test_game_engine.py::TestBlackjackGame::test_player_hit PASSED      [ 81%]
+test/test_game_engine.py::TestBlackjackGame::test_player_stand PASSED    [ 84%]
+test/test_game_engine.py::TestBlackjackGame::test_double_down PASSED     [ 86%]
+test/test_game_engine.py::TestBlackjackGame::test_player_bust_ends_game PASSED [ 89%]
+test/test_game_engine.py::TestBlackjackGame::test_blackjack_scenarios PASSED [ 92%]
+test/test_game_engine.py::TestBlackjackGame::test_game_state_serialization PASSED [ 94%]
+test/test_game_engine.py::TestBlackjackGame::test_dealer_play_logic PASSED [ 97%]
+test/test_game_engine.py::TestBlackjackGame::test_invalid_actions PASSED [100%]
+
+============================== 38 passed in 3.13s ==============================
